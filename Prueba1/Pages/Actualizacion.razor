@@ -1,0 +1,170 @@
+﻿@page "/"
+<PageTitle>Actualización</PageTitle>
+<MudGrid>
+  
+     <MudItem xs="1">
+    <MudImage Src="https://multimedios.portafolio.cr/img/Isotipo-AZUL.png" Width="86" Height="85" Alt="Logo" Class="Logo" />
+    </MudItem>
+     <MudItem xs="5">
+        <br>
+    
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins;color:#646464 ;font-size:19px">Sistema Decimales(Recepcion de documentos)</MudText>
+        <MudItem xs="3" ></MudItem>
+        <MudItem xs="3"></MudItem>
+    </MudItem>
+ </MudGrid>
+<MudDivider />
+<br>
+<MudGrid>
+    <MudItem xs="0"></MudItem>
+     <MudItem xs="3">
+        <MudText Typo="Typo.subtitle1" Style="color:#646464;font-family:Poppins;font-size:18px">Bienvenido:Usuario</MudText>
+    </MudItem>
+        <MudItem xs="6" ></MudItem>
+        <MudItem xs="2">
+        <MudButton Variant="Variant.Text" style="color:#083B83;font-family:Poppins">Cerrar Sesión</MudButton>
+        </MudItem>
+</MudGrid>
+<br>
+<MudText  Align="Align.Center" Style="font-family:Poppins;color:#5F5F5F ;font-size:23px"><b>Actualizar datos</b></MudText>
+<br>
+<br>
+
+<MudGrid>
+
+    <MudItem xs="2"></MudItem>
+    <MudItem xs="3">
+
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Nombre del Proveedor</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+        <br>
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Documento electrónico</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+        <br>
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Orden de compra</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+    </MudItem>
+    <MudItem xs="2"></MudItem>
+    <MudItem xs="3">
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Codigo del Proveedor</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+        <br>
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Codigo de recepción</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+        <br>
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Monto de la orden de compra</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+    </MudItem>
+    <MudItem xs="2"></MudItem>
+    
+</MudGrid>
+
+<MudGrid>
+
+    <MudItem xs="5"></MudItem>
+    <MudItem xs="2">
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Monto de la factura</MudText>
+        <MudTextField @bind-Value="TextValue" Variant="Variant.Outlined" Margin="Margin.Dense"></MudTextField>
+        <br>
+    </MudItem>
+    <MudItem xs="5"></MudItem>
+</MudGrid>
+<br>
+<MudGrid>
+ 
+    <MudItem xs="4">
+    </MudItem>
+    <MudItem xs="2">
+        <div class="d-flex">
+            <MudButton OnClick="OpenDialog" Variant="Variant.Filled" style="background-color:#1D428A; font-family:Poppins" Class="px-10" Color="Color.Primary">
+                Actualizar
+            </MudButton>
+        </div>
+        <MudDialog @bind-IsVisible="visible"  Style=" background:transparent;box-shadow:none" Options="dialogOptions">
+            <TitleContent>
+                <MudText Typo="Typo.h6" Align="Align.Center" Style="font-family:Poppins ; color:aliceblue;font-size:30px">
+                   
+                    ¿Desea actualizar
+
+               </MudText>
+                <MudText Typo="Typo.h6" Align="Align.Center" Style="font-family:Poppins ;color:aliceblue;font-size:30px">
+                   
+                   el monto de la factura?
+                 </MudText>
+            </TitleContent>
+
+            <DialogActions>
+
+                <MudItem xs="3">
+                    <MudButton style="background-color:#1D428A; font-family:Poppins" Variant="Variant.Filled" Color="Color.Primary" OnClick="Submit" Class="px-4">Actualizar</MudButton>
+                </MudItem>
+                <MudItem xs="6">
+                    <MudButton Variant="Variant.Outlined" OnClick="Submit" Class="px-5" Style="font-family:Poppins;color:aliceblue;border-color:aliceblue">Cancelar</MudButton>
+                </MudItem>
+            </DialogActions>
+        </MudDialog>
+    </MudItem>
+    <MudItem xs="0"></MudItem>
+    <MudItem xs="2">
+       <MudCardActions>
+            <MudButton Variant="Variant.Outlined" Color="Color.Primary" Style="font-family:Poppins;color:#1D428A;border-color:#1D428A" Class="px-10">Regresar</MudButton>
+        </MudCardActions>
+    </MudItem>
+    <MudItem xs="4"></MudItem>
+
+</MudGrid>
+<br>
+<br>
+<br>
+<br>
+
+@code {
+    public string TextValue { get; set; }
+    private bool visible;
+
+    private void OpenDialog() => visible = true;
+    void Submit() => visible = false;
+
+    private DialogOptions dialogOptions = new() { FullWidth = true };
+    
+    public decimal DecimalValue { get; set; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @code {
+
+}

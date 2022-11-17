@@ -1,0 +1,68 @@
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\appsettings.json
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Prueba1.staticwebassets.runtime.json
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Prueba1.exe
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Prueba1.deps.json
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Prueba1.runtimeconfig.json
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Prueba1.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Prueba1.pdb
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.csproj.AssemblyReference.cache
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.AssemblyInfoInputs.cache
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.AssemblyInfo.cs
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.csproj.CoreCompileInputs.cache
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.RazorAssemblyInfo.cache
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.RazorAssemblyInfo.cs
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\scopedcss\bundle\Prueba1.styles.css
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.csproj.CopyComplete
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\refint\Prueba1.dll
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.pdb
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\Prueba1.genruntimeconfig.cache
+C:\Users\pasante-ti\source\repos\Prueba1\Prueba1\obj\Debug\net6.0\ref\Prueba1.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\appsettings.json
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Prueba1.staticwebassets.runtime.json
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Prueba1.exe
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Prueba1.deps.json
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Prueba1.runtimeconfig.json
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Prueba1.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Prueba1.pdb
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.csproj.AssemblyReference.cache
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.AssemblyInfoInputs.cache
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.AssemblyInfo.cs
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.csproj.CoreCompileInputs.cache
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.RazorAssemblyInfo.cache
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.RazorAssemblyInfo.cs
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\scopedcss\bundle\Prueba1.styles.css
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.csproj.CopyComplete
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\refint\Prueba1.dll
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.pdb
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\Prueba1.genruntimeconfig.cache
+C:\Users\pasante-ti\source\repos\Sistema Decimales\Prueba1\obj\Debug\net6.0\ref\Prueba1.dll

@@ -1,0 +1,72 @@
+﻿
+@using System.ComponentModel.DataAnnotations
+
+<PageTitle>Sistema Decimales</PageTitle>
+<EditForm Model="@model" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+   <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <MudGrid>
+        
+        <MudItem xs="4"></MudItem>
+        <MudItem xs="4" >
+            <MudCard>
+                <MudCardContent>
+                    <div class="d-flex justify-center">
+                        <MudImage Src="https://multimedios.portafolio.cr/img/logo.png" Width="350" Height="120" Alt="Logo" Class="align-content-center" />
+                  </div>
+                    <MudText Typo="Typo.h6" Align="Align.Center">Sistema Decimales</MudText>
+                    <MudText Typo="Typo.subtitle1" Align="Align.Center">Recepcion de Documentos</MudText>
+                    <MudTextField Label="Usuario" Class="mt-3"
+                                  @bind-Value="model.Email" For="@(() => model.Email)" />
+                    <MudTextField Label="Contraseña"  Class="mt-3"
+                                  @bind-Value="model.Password" For="@(() => model.Password)" InputType="InputType.Password" />
+                   <br />
+                </MudCardContent>
+                <div class="d-flex justify-center align-center ">
+                <MudCardActions>
+                    <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" style="background-color:#1D428A" Color="Color.Primary" Class="ml-auto">Ingresar</MudButton>
+                    
+                </MudCardActions>
+                 </div>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="4"></MudItem>
+       
+            </MudGrid>
+
+ 
+</EditForm>
+@code {
+    RegisterAccountForm model = new RegisterAccountForm();
+    bool success;
+
+    public class RegisterAccountForm
+    {
+        
+
+        [Required(ErrorMessage = "Su usuario es requerido")]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required(ErrorMessage = "Su contraseña es requerida")]
+        public string Password { get; set; }
+
+       
+
+    }
+
+    private void OnValidSubmit(EditContext context)
+    {
+        success = true;
+        StateHasChanged();
+    }
+
+}
+
+
+
+

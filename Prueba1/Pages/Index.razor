@@ -1,0 +1,87 @@
+﻿
+<PageTitle>Ingreso de Datos</PageTitle>
+
+
+ <MudGrid>
+  
+     <MudItem xs="1">
+    <MudImage Src="https://multimedios.portafolio.cr/img/Isotipo-AZUL.png" Width="86" Height="85" Alt="Logo" Class="Logo" />
+    </MudItem>
+     <MudItem xs="5">
+        <br>
+        <MudText Typo="Typo.h6" Style="font-family:Poppins;color:#646464;font-size:19px">Sistema Decimales (Recepcion de documentos)</MudText>
+        <MudItem xs="3" ></MudItem>
+        <MudItem xs="3"></MudItem>
+
+    </MudItem>
+    
+ </MudGrid>
+<MudDivider />
+<br>
+<MudGrid>
+    <MudItem xs="0"></MudItem>
+     <MudItem xs="3">
+        <MudText Typo="Typo.subtitle1" Style="color:#646464;font-family:Poppins;font-size:18px">Bienvenido: Usuario</MudText>
+    </MudItem>
+
+        <MudItem xs="6" ></MudItem>
+        <MudItem xs="2">
+        <MudButton Variant="Variant.Text" style="color:#083B83; font-family:Poppins">Cerrar Sesión</MudButton>
+        </MudItem>
+</MudGrid>
+<br>
+
+<MudText Align="Align.Center" Style="font-family:Poppins;font-size:23px"><b>Ingresar los Datos</b></MudText>
+<br>
+<br>
+
+<MudGrid>
+
+    <MudItem xs="4"></MudItem>
+
+    <MudItem xs="4">
+        
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Acrónimo de la empresa</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">NIT de la empresa</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Contribuyente del proveedor</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense"Style="border-color:#1D428A"></MudTextField>
+        <br>
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Documento Electronico(FACTURA)</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+        <MudText Typo="Typo.subtitle1" Style="font-family:Poppins">Monto de la orden de compra</MudText>
+        <MudTextField T="string" Variant="Variant.Outlined" Margin="Margin.Dense" Style="border-color:#1D428A"></MudTextField>
+        <br>
+        </MudItem>
+
+    <MudItem xs="4"></MudItem>
+    
+</MudGrid>
+<br />
+<br />
+
+<div class="d-flex justify-center align-center ">
+    <MudCardActions>
+        <MudButton ButtonType="ButtonType.Submit"  Variant="Variant.Filled" style="background-color:#1D428A; font-family:Poppins" Color="Color.Primary" Class="px-10">Buscar</MudButton>
+
+    </MudCardActions>
+</div>
+<br />
+<br />
+<br />
+
+
+
+<MudDivider />
+<br />
+
+<MudText Typo="Typo.subtitle1" Align="Align.Center">&copy; 2022 | Portafolio Inmobiliario</MudText>
+
+@code {
+    public string TextValue { get; set; }
+
+}
